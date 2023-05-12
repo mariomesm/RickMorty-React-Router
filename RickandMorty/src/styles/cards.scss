@@ -1,0 +1,32 @@
+.card{
+    width:20%;
+    margin-left:30px ;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 50px burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    img{
+        object-fit: scale-down;
+    }
+    div{
+        .btn-show{
+            display: none;
+        }
+    }
+}
+.card:hover{
+      width: 23%;
+      height: 50%;
+      div{
+        .btn-show{
+            display:block;
+            margin: 0 auto;
+        }
+        .btn-show:hover{
+            background-color: green;
+            border: none;
+            width: 150px;
+            
+        }
+      }
+}
